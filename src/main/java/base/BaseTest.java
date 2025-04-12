@@ -1,5 +1,7 @@
 package base;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -24,6 +26,10 @@ public class BaseTest {
 	// hard wait
 	public void hardWaitMethod(int secValue) throws InterruptedException {
 		Thread.sleep(secValue);
+	}
+
+	public void implicitWaitMethod(int imp) {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(imp));
 	}
 
 }

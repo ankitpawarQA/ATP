@@ -13,6 +13,8 @@ public class GUIElementsTest extends BaseTest {
 	public void validateGUIElements() {
 
 		GUIElements GUIElementsObj = PageFactory.initElements(driver, GUIElements.class);
+		
+		implicitWaitMethod(5);
 
 		boolean nameInputFieldDisplayed = GUIElementsObj.nameInputField.isDisplayed();
 		Assert.assertEquals(nameInputFieldDisplayed, true);
