@@ -19,7 +19,11 @@ public class BaseTest {
 	@AfterTest
 	public void teardown() {
 		driver.close();
+	}
 
+	// hard wait
+	public void hardWaitMethod(int secValue) throws InterruptedException {
+		Thread.sleep(secValue);
 	}
 
 }
