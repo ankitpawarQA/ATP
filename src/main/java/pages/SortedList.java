@@ -6,14 +6,12 @@ import org.openqa.selenium.support.FindBy;
 
 import base.BaseTest;
 
-public class DynamicButton extends BaseTest{
+public class SortedList extends BaseTest{
 	
-	public  WebDriver driver;
+	public WebDriver driver;
 	
-	@FindBy(xpath = "//button[@name='start']")
-	public WebElement dynamicButtonStart;
-	
-	
+	@FindBy(xpath=" //select[@id='animals']")
+	public WebElement animalName;
 	
 
 }

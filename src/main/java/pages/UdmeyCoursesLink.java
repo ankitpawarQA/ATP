@@ -6,14 +6,12 @@ import org.openqa.selenium.support.FindBy;
 
 import base.BaseTest;
 
-public class Tabs extends BaseTest {
+public class UdmeyCoursesLink extends BaseTest{
 	
 	public WebDriver driver;
 	
-	@FindBy(xpath = " //form[@name='wikipedia']")
+	@FindBy(xpath= "(//div[@class='widget-content']//a[contains(normalize-space(.), 'Udemy Courses')])[1]")
 	
-	public WebElement tabs;
-	
-	
+	public WebElement udmeyCourseLink;
 
 }

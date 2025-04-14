@@ -6,14 +6,12 @@ import org.openqa.selenium.support.FindBy;
 
 import base.BaseTest;
 
-public class DynamicButton extends BaseTest{
+public class Slider extends BaseTest{
 	
-	public  WebDriver driver;
+	public WebDriver driver;
 	
-	@FindBy(xpath = "//button[@name='start']")
-	public WebElement dynamicButtonStart;
+	@FindBy(xpath=" //div[@id='slider-range']")
 	
-	
-	
+	public WebElement priceRange;
 
 }

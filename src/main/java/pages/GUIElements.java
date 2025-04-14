@@ -13,5 +13,15 @@ public class GUIElements extends BaseTest {
 
 	@FindBy(xpath = "//input[@id='name']")
 	public WebElement nameInputField;
+	
+	@FindBy(xpath = "//input[@id='email']")
+	public WebElement emailEnterField;
+	
+	@FindBy(xpath = "//input[@id='phone']")
+	public WebElement phoneEnterField;
+	
+	@FindBy(xpath = "//textarea[@id='textarea']")
+	public WebElement addressEnterField;
+
 
 }

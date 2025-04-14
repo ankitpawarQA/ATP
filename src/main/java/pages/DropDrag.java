@@ -6,14 +6,11 @@ import org.openqa.selenium.support.FindBy;
 
 import base.BaseTest;
 
-public class DynamicButton extends BaseTest{
+public class DropDrag extends BaseTest{
 	
-	public  WebDriver driver;
+	WebDriver driver;
 	
-	@FindBy(xpath = "//button[@name='start']")
-	public WebElement dynamicButtonStart;
-	
-	
-	
+	@FindBy(xpath= " //h2[text()='Drag and Drop']")
+	public WebElement dragDrop;
 
 }

@@ -6,14 +6,12 @@ import org.openqa.selenium.support.FindBy;
 
 import base.BaseTest;
 
-public class Tabs extends BaseTest {
+public class BlogsLink extends BaseTest{
 	
 	public WebDriver driver;
 	
-	@FindBy(xpath = " //form[@name='wikipedia']")
-	
-	public WebElement tabs;
-	
+	@FindBy(xpath="(//div[@class='widget-content']//a[contains(normalize-space(.), 'Blog')])[1]")
+	public WebElement blogsLinks;
 	
 
 }

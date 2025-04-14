@@ -6,13 +6,16 @@ import org.openqa.selenium.support.FindBy;
 
 import base.BaseTest;
 
-public class Tabs extends BaseTest {
+public class StaticWebTable extends BaseTest {
 	
 	public WebDriver driver;
 	
-	@FindBy(xpath = " //form[@name='wikipedia']")
+	@FindBy(xpath= " //div[@id='HTML1']")
+	public WebElement staticWebtale;
 	
-	public WebElement tabs;
+	@FindBy(xpath= " //div[@id='HTML12']")
+	public WebElement dynamicWebtale;
+	
 	
 	
 

@@ -6,13 +6,12 @@ import org.openqa.selenium.support.FindBy;
 
 import base.BaseTest;
 
-public class DynamicButton extends BaseTest{
-	
-	public  WebDriver driver;
-	
-	@FindBy(xpath = "//button[@name='start']")
-	public WebElement dynamicButtonStart;
-	
+public class PaginationWebtable extends BaseTest {
+
+	public WebDriver driver;
+
+	@FindBy(xpath = " //table[@id='productTable']")
+	public WebElement paginationTable;
 	
 	
 

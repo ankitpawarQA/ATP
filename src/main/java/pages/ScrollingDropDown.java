@@ -6,14 +6,12 @@ import org.openqa.selenium.support.FindBy;
 
 import base.BaseTest;
 
-public class DynamicButton extends BaseTest{
+public class ScrollingDropDown extends BaseTest{
 	
-	public  WebDriver driver;
-	
-	@FindBy(xpath = "//button[@name='start']")
-	public WebElement dynamicButtonStart;
-	
-	
+	public WebDriver driver;
+	 
+	@FindBy(xpath=" //input[@id='comboBox']")
+	public WebElement scrollingDropdown;
 	
 
 }
