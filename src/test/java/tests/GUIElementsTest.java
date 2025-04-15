@@ -48,7 +48,8 @@ public class GUIElementsTest extends BaseTest {
 
 		GUIElementsObj.addressEnterField.sendKeys("Pune");
 
-		closeAllBrowser();
+		//closeAllBrowser();
+		
 
 	}
 

@@ -19,7 +19,6 @@ public WebDriver driver;
 	@FindBy(xpath = " //button[@id='promptBtn']")
 	public WebElement promptAlerts;
 	
-
 	@FindBy(xpath = " //button[text()='New Tab']")
 	public WebElement newTab;
 	
