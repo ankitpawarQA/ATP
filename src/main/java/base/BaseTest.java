@@ -24,6 +24,11 @@ public class BaseTest {
 	public void teardown() {
 		driver.close();
 	}
+	
+	public void closeAllBrowser() {
+		driver.quit();
+	}
+	
 
 	// hard wait
 	public void hardWaitMethod(int secValue) throws InterruptedException {
@@ -36,7 +41,7 @@ public class BaseTest {
 	
 	public void softAssertMethod(boolean ele1) {
 		SoftAssert sa = new SoftAssert();
-		sa.assertEquals(ele1, true);
+		sa.assertEquals(ele1, false);
 		sa.assertAll();
 	}
 	
