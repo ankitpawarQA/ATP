@@ -9,7 +9,7 @@ import base.BaseTest;
 
 public class GUIElements extends BaseTest {
 
-	private WebDriver driver;
+	public WebDriver driver;
 
 	@FindBy(xpath = "//input[@id='name']")
 	public WebElement nameInputField;

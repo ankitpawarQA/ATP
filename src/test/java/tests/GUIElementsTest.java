@@ -9,7 +9,7 @@ import pages.GUIElements;
 
 public class GUIElementsTest extends BaseTest {
 
-	@Test
+	@Test(priority = 1)
 	public void validateGUIElements() {
 
 		GUIElements GUIElementsObj = PageFactory.initElements(driver, GUIElements.class);
@@ -47,9 +47,6 @@ public class GUIElementsTest extends BaseTest {
 		GUIElementsObj.phoneEnterField.sendKeys("780725645");
 
 		GUIElementsObj.addressEnterField.sendKeys("Pune");
-
-		//closeAllBrowser();
-		
 
 	}
 
