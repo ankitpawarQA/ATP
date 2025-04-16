@@ -1,4 +1,4 @@
- package tests;
+package tests;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
@@ -6,16 +6,12 @@ import org.testng.annotations.Test;
 import base.BaseTest;
 
 public class AlertsAndPopupsTest extends BaseTest {
-	@Test
 	
+	@Test(priority = 4)
 	public void alertandPopUp() {
-		
-		AlertsAndPopupsTest alertPopUpObj = PageFactory.initElements(driver, AlertsAndPopupsTest.class);	
-		
-		
-		
-		
-		
+
+		AlertsAndPopupsTest alertPopUpObj = PageFactory.initElements(driver, AlertsAndPopupsTest.class);
+
 	}
 
 }

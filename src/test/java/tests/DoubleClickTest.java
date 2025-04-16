@@ -7,9 +7,7 @@ import base.BaseTest;
 
 public class DoubleClickTest extends BaseTest{
 	
-	
-
-	@Test
+	@Test(priority = 3)
 	public void doubleClickMethod() {
 		
 		DoubleClickTest doubleClickobj= PageFactory.initElements(driver, DoubleClickTest.class);
