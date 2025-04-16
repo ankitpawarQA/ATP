@@ -7,7 +7,7 @@ import base.BaseTest;
 
 public class AlertsAndPopupsTest extends BaseTest {
 
-	@Test(priority = 4)
+	@Test(priority = 3)
 
 	public void alertandPopUp() {
 

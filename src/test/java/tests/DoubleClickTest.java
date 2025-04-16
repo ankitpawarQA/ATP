@@ -7,7 +7,7 @@ import base.BaseTest;
 
 public class DoubleClickTest extends BaseTest {
 
-	@Test(priority = 3)
+	@Test(priority = 5)
 
 	public void doubleClickMethod() {
 
