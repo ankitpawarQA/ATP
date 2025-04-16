@@ -4,14 +4,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import base.BaseTest;
+public class NewTab {
 
-public class PopUpWindows extends BaseTest{
-	
-	public WebDriver driver ; 
-	 
-	@FindBy(xpath="//button[@id='PopUp'] ")
+	public WebDriver driver;
+
+	@FindBy(xpath = " //button[text()='New Tab']")
+	public WebElement newTab;
+
+	@FindBy(xpath = "//button[@id='PopUp'] ")
 	public WebElement popUpWindow;
-	
 
 }
