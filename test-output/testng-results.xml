@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-04-16T07:27:10 IST" name="Default suite" finished-at="2025-04-16T07:27:18 IST" duration-ms="7481">
     <groups>
     </groups>
@@ -16,6 +17,22 @@
           </reporter-output>
         </test-method> <!-- validateGenderRadioButtonTest -->
         <test-method is-config="true" signature="teardown()[pri:0, instance:tests.GenderRadioButtonTest@14dd9eb7]" started-at="2025-04-16T07:27:18 IST" name="teardown" finished-at="2025-04-16T07:27:18 IST" duration-ms="126" status="PASS">
+=======
+  <suite started-at="2025-04-16T07:32:42 IST" name="Default suite" finished-at="2025-04-16T07:32:49 IST" duration-ms="7020">
+    <groups>
+    </groups>
+    <test started-at="2025-04-16T07:32:42 IST" name="Default test" finished-at="2025-04-16T07:32:49 IST" duration-ms="7020">
+      <class name="tests.GenderRadioButtonTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GenderRadioButtonTest@5b247367]" started-at="2025-04-16T07:32:42 IST" name="setup" finished-at="2025-04-16T07:32:48 IST" duration-ms="6575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateGenderRadioButtonTest()[pri:2, instance:tests.GenderRadioButtonTest@5b247367]" started-at="2025-04-16T07:32:48 IST" name="validateGenderRadioButtonTest" finished-at="2025-04-16T07:32:48 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGenderRadioButtonTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.GenderRadioButtonTest@5b247367]" started-at="2025-04-16T07:32:48 IST" name="teardown" finished-at="2025-04-16T07:32:49 IST" duration-ms="172" status="PASS">
+>>>>>>> 1e580ef76542980dc120f4a5d0b7fcc6bf55443a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

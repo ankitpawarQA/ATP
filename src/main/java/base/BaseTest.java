@@ -52,12 +52,4 @@ public class BaseTest {
 		sa.assertAll();
 	}
 
-	public void hardAssertMethod() {
-		Assert.assertEquals(true, false);
-	}
-
-	public void clickMethod(WebElement ele) {
-		ele.click();
-	}
-
 }

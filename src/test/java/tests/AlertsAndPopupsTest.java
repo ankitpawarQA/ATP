@@ -7,7 +7,8 @@ import base.BaseTest;
 
 public class AlertsAndPopupsTest extends BaseTest {
 
-	@Test(priority = 3)
+	@Test(priority = 4)
+
 	public void alertandPopUp() {
 
 		AlertsAndPopupsTest alertPopUpObj = PageFactory.initElements(driver, AlertsAndPopupsTest.class);
