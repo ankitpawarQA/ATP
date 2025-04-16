@@ -9,9 +9,9 @@ public class NewTab {
 	public WebDriver driver;
 
 	@FindBy(xpath = " //button[text()='New Tab']")
-	public WebElement newTab;
+	public WebElement newTabBtn;
 
 	@FindBy(xpath = "//button[@id='PopUp'] ")
-	public WebElement popUpWindow;
+	public WebElement popUpWindowBtn;
 
 }

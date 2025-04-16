@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-16T16:01:09 IST" name="Default suite" finished-at="2025-04-16T16:01:14 IST" duration-ms="5626">
+  <suite started-at="2025-04-16T19:37:16 IST" name="Default suite" finished-at="2025-04-16T19:37:29 IST" duration-ms="12395">
     <groups>
     </groups>
-    <test started-at="2025-04-16T16:01:09 IST" name="Default test" finished-at="2025-04-16T16:01:14 IST" duration-ms="5626">
-      <class name="tests.AlertsAndPopupsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AlertsAndPopupsTest@5386659f]" started-at="2025-04-16T16:01:09 IST" name="setup" finished-at="2025-04-16T16:01:14 IST" duration-ms="5461" status="PASS">
+    <test started-at="2025-04-16T19:37:16 IST" name="Default test" finished-at="2025-04-16T19:37:29 IST" duration-ms="12395">
+      <class name="tests.NewTabTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewTabTest@5386659f]" started-at="2025-04-16T19:37:16 IST" name="setup" finished-at="2025-04-16T19:37:28 IST" duration-ms="12070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="alertandPopUp()[pri:4, instance:tests.AlertsAndPopupsTest@5386659f]" started-at="2025-04-16T16:01:14 IST" name="alertandPopUp" finished-at="2025-04-16T16:01:14 IST" duration-ms="6" status="PASS">
+        <test-method signature="newTab()[pri:4, instance:tests.NewTabTest@5386659f]" started-at="2025-04-16T19:37:28 IST" name="newTab" finished-at="2025-04-16T19:37:28 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alertandPopUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AlertsAndPopupsTest@5386659f]" started-at="2025-04-16T16:01:14 IST" name="teardown" finished-at="2025-04-16T16:01:14 IST" duration-ms="121" status="PASS">
+        </test-method> <!-- newTab -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NewTabTest@5386659f]" started-at="2025-04-16T19:37:28 IST" name="teardown" finished-at="2025-04-16T19:37:29 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.AlertsAndPopupsTest -->
+      </class> <!-- tests.NewTabTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
