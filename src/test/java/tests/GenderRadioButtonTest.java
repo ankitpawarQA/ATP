@@ -20,14 +20,14 @@ public class GenderRadioButtonTest extends BaseTest {
 		boolean femaleGenderRadioBtnDispalyed = genderObj.femaleGenderRadioBtn.isDisplayed();
 		softAssertMethod(femaleGenderRadioBtnDispalyed);
 
-		//genderObj.maleGenderRadioBtn.click();
+		genderObj.maleGenderRadioBtn.click();
 		boolean maleGenderRadioBtnIsSelected = genderObj.maleGenderRadioBtn.isSelected();
 		softAssertMethod(maleGenderRadioBtnIsSelected);
 
 		genderObj.femaleGenderRadioBtn.click();
 		boolean femaleGenderRadioBtnIsSeelcted = genderObj.femaleGenderRadioBtn.isSelected();
 		softAssertMethod(femaleGenderRadioBtnIsSeelcted);
-		
+
 		System.out.println("done");
 
 	}

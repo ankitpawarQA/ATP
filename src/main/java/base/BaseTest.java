@@ -28,13 +28,13 @@ public class BaseTest {
 	@AfterMethod
 	public void teardown() throws InterruptedException {
 		Thread.sleep(2);
-		driver.close();
+		driver.quit();
 	}
 
 	// for closing all browser
-	public void closeAllBrowser() {
-		driver.quit();
-	}
+//	public void closeAllBrowser() {
+//		driver.quit();
+//	}
 
 	// hard wait
 	public void hardWaitMethod(int secValue) throws InterruptedException {
