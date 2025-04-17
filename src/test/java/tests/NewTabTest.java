@@ -20,7 +20,7 @@ public class NewTabTest extends BaseTest {
 
 		String windowID = driver.getWindowHandle();
 		System.out.println(windowID);
-		//closeAllBrowser();
+		// closeAllBrowser();
 
 		// button displayed or not
 		// click on new tab btn and get window handles of both parent and new tab opened

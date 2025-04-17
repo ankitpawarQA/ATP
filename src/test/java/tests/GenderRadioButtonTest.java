@@ -27,8 +27,5 @@ public class GenderRadioButtonTest extends BaseTest {
 		genderObj.femaleGenderRadioBtn.click();
 		boolean femaleGenderRadioBtnIsSeelcted = genderObj.femaleGenderRadioBtn.isSelected();
 		softAssertMethod(femaleGenderRadioBtnIsSeelcted);
-
-		System.out.println("done");
-
 	}
 }

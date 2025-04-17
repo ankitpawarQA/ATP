@@ -31,6 +31,7 @@ public class AlertsAndPopupsTest extends BaseTest {
 		boolean promptAlertsBtnDisp = alertPopUpObj.promptAlertsBtn.isDisplayed();
 		softAssertMethod(promptAlertsBtnDisp);
 
+		// get text of all the buttons
 		String simpleAlertsBtnText = alertPopUpObj.simpleAlertsBtn.getText();
 		String confirmationAlertsBtnText = alertPopUpObj.confirmationAlertsBtn.getText();
 		String promptAlertsBtnText = alertPopUpObj.promptAlertsBtn.getText();
@@ -66,15 +67,6 @@ public class AlertsAndPopupsTest extends BaseTest {
 		alertPopUpObj.promptAlertsBtn.click();
 		promptAlert.sendKeys("akshuankit");
 		promptAlert.dismiss();
-
-		// find all buttons are displayed or not
-		// get text of all the buttons
-		// confirmation message for all the buttons
-		// find text of Prompt alert button
-		// button 1: press ok
-		// button 2: press cancel
-		// button 3: enter text and then click ok
-		// prompt alert: show the text ok is clicked and when cancel is clicked
 
 	}
 
