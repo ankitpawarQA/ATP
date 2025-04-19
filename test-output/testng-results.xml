@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-17T20:02:18 IST" name="Default suite" finished-at="2025-04-17T20:02:30 IST" duration-ms="11948">
+  <suite started-at="2025-04-19T17:13:06 IST" name="Default suite" finished-at="2025-04-19T17:13:18 IST" duration-ms="11381">
     <groups>
     </groups>
-    <test started-at="2025-04-17T20:02:18 IST" name="Default test" finished-at="2025-04-17T20:02:30 IST" duration-ms="11948">
+    <test started-at="2025-04-19T17:13:06 IST" name="Default test" finished-at="2025-04-19T17:13:18 IST" duration-ms="11381">
       <class name="tests.DoubleClickTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DoubleClickTest@14028087]" started-at="2025-04-17T20:02:18 IST" name="setup" finished-at="2025-04-17T20:02:25 IST" duration-ms="7302" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DoubleClickTest@57a78e3]" started-at="2025-04-19T17:13:06 IST" name="setup" finished-at="2025-04-19T17:13:13 IST" duration-ms="6590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="doubleClickMethod()[pri:5, instance:tests.DoubleClickTest@14028087]" started-at="2025-04-17T20:02:25 IST" name="doubleClickMethod" finished-at="2025-04-17T20:02:29 IST" duration-ms="4394" status="PASS">
+        <test-method signature="doubleClickMethod()[pri:5, instance:tests.DoubleClickTest@57a78e3]" started-at="2025-04-19T17:13:13 IST" name="doubleClickMethod" finished-at="2025-04-19T17:13:17 IST" duration-ms="4378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doubleClickMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DoubleClickTest@14028087]" started-at="2025-04-17T20:02:29 IST" name="teardown" finished-at="2025-04-17T20:02:30 IST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DoubleClickTest@57a78e3]" started-at="2025-04-19T17:13:17 IST" name="teardown" finished-at="2025-04-19T17:13:18 IST" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
