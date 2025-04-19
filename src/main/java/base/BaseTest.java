@@ -2,6 +2,7 @@ package base;
 
 import java.time.Duration;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,13 +29,8 @@ public class BaseTest {
 	@AfterMethod
 	public void teardown() throws InterruptedException {
 		Thread.sleep(2);
-		driver.quit();
+	//	driver.quit();
 	}
-
-	// for closing all browser
-//	public void closeAllBrowser() {
-//		driver.quit();
-//	}
 
 	// hard wait
 	public void hardWaitMethod(int secValue) throws InterruptedException {
@@ -51,5 +47,10 @@ public class BaseTest {
 		sa.assertEquals(ele1, true);
 		sa.assertAll();
 	}
+
+//	public void scrollMethod(int x, int y) {
+//		JavascriptExecutor js = (JavascriptExecutor) driver;
+//		js.executeScript("window.scrollBy(x,y)", "");
+//	}
 
 }

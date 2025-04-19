@@ -15,9 +15,8 @@ public class DoubleClick extends BaseTest {
 
 	@FindBy(xpath = "//input[@id='field2']")
 	public WebElement field2Click;
-	
+
 	@FindBy(xpath = "//button[text()='Copy Text']")
 	public WebElement copyTextButton;
-	
 
 }
