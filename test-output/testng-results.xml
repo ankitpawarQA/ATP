@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-19T18:36:17 IST" name="Default suite" finished-at="2025-04-19T18:36:26 IST" duration-ms="8798">
+  <suite started-at="2025-04-21T08:25:15 IST" name="Default suite" finished-at="2025-04-21T08:25:25 IST" duration-ms="9963">
     <groups>
     </groups>
-    <test started-at="2025-04-19T18:36:17 IST" name="Default test" finished-at="2025-04-19T18:36:26 IST" duration-ms="8798">
-      <class name="tests.NewTabTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewTabTest@4d9e68d0]" started-at="2025-04-19T18:36:18 IST" name="setup" finished-at="2025-04-19T18:36:25 IST" duration-ms="7947" status="PASS">
+    <test started-at="2025-04-21T08:25:15 IST" name="Default test" finished-at="2025-04-21T08:25:25 IST" duration-ms="9963">
+      <class name="tests.TabsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TabsTest@1a451d4d]" started-at="2025-04-21T08:25:15 IST" name="setup" finished-at="2025-04-21T08:25:23 IST" duration-ms="7191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="popWinMethod()[pri:4, instance:tests.NewTabTest@4d9e68d0]" started-at="2025-04-19T18:36:25 IST" name="popWinMethod" finished-at="2025-04-19T18:36:26 IST" duration-ms="791" status="PASS">
+        <test-method signature="tabTestMethod()[pri:12, instance:tests.TabsTest@1a451d4d]" started-at="2025-04-21T08:25:23 IST" name="tabTestMethod" finished-at="2025-04-21T08:25:25 IST" duration-ms="2400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- popWinMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NewTabTest@4d9e68d0]" started-at="2025-04-19T18:36:26 IST" name="teardown" finished-at="2025-04-19T18:36:26 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- tabTestMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TabsTest@1a451d4d]" started-at="2025-04-21T08:25:25 IST" name="teardown" finished-at="2025-04-21T08:25:25 IST" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.NewTabTest -->
+      </class> <!-- tests.TabsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

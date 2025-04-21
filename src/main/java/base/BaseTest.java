@@ -29,7 +29,7 @@ public class BaseTest {
 	@AfterMethod
 	public void teardown() throws InterruptedException {
 		Thread.sleep(2);
-	//	driver.quit();
+		driver.quit();
 	}
 
 	// hard wait
@@ -48,9 +48,14 @@ public class BaseTest {
 		sa.assertAll();
 	}
 
-//	public void scrollMethod(int x, int y) {
-//		JavascriptExecutor js = (JavascriptExecutor) driver;
-//		js.executeScript("window.scrollBy(x,y)", "");
-//	}
+	public void scrollToElementMethod(WebElement ele) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", ele);
+	}
+
+	public void scrollDownMethod(int x, int y) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(arguments[0], arguments[1]);", x, y);
+	}
 
 }

@@ -11,7 +11,7 @@ import pages.CountryDropDown;
 
 public class CountryDropDownTest extends BaseTest {
 
-	@Test
+	@Test(priority = 7)
 	public void validateCountryDropDown() throws InterruptedException {
 
 		CountryDropDown countryDropDownObj = PageFactory.initElements(driver, CountryDropDown.class);
