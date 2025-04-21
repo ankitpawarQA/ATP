@@ -2,13 +2,27 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<!-- <include name="ankit" />-->
+				<include name="akshu" />
+			</run>
+		</groups>
 		<classes>
 			<class name="tests.NewTabTest" />
+			<class name="tests.TabsTest" />
+			<class name="tests.ColoursSelectionTest" />
 			<class name="tests.DoubleClickTest" />
+			<class name="tests.DatePickerFieldTest" />
+			<class name="tests.CountryDropDownTest" />
 			<class name="tests.GenderRadioButtonTest" />
+			<class name="tests.SortedListTest" />
 			<class name="tests.AlertsAndPopupsTest" />
 			<class name="tests.MouseHoverTest" />
 			<class name="tests.GUIElementsTest" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -1,5 +1,7 @@
 package tests;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.util.Set;
 
 import org.openqa.selenium.By;

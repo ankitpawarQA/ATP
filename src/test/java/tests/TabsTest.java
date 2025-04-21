@@ -1,5 +1,7 @@
 package tests;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Set;
 
@@ -13,7 +15,7 @@ import pages.Tabs;
 
 public class TabsTest extends BaseTest {
 
-	@Test(priority = 12)
+	@Test(priority = 12, groups = { "akshu" })
 	public void tabTestMethod() {
 		Tabs tabsObject = PageFactory.initElements(driver, Tabs.class);
 		implicitWaitMethod(5);

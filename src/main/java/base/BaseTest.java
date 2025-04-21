@@ -19,14 +19,14 @@ public class BaseTest {
 
 	protected WebDriver driver;
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"ankit","akshu"})
 	public void setup() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://testautomationpractice.blogspot.com/");
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"ankit","akshu"})
 	public void teardown() throws InterruptedException {
 		Thread.sleep(2);
 		driver.quit();
