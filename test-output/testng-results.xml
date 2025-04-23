@@ -1,46 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="11" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-21T09:10:54 IST" name="Suite" finished-at="2025-04-21T09:11:13 IST" duration-ms="19886">
+  <suite started-at="2025-04-22T15:04:35 IST" name="Default suite" finished-at="2025-04-22T15:04:43 IST" duration-ms="7616">
     <groups>
-      <group name="ankit">
-        <method signature="DoubleClickTest.doubleClickMethod()[pri:5, instance:tests.DoubleClickTest@72c8e7b]" name="doubleClickMethod" class="tests.DoubleClickTest"/>
-      </group> <!-- ankit -->
-      <group name="akshu">
-        <method signature="DoubleClickTest.doubleClickMethod()[pri:5, instance:tests.DoubleClickTest@72c8e7b]" name="doubleClickMethod" class="tests.DoubleClickTest"/>
-        <method signature="TabsTest.tabTestMethod()[pri:12, instance:tests.TabsTest@194fad1]" name="tabTestMethod" class="tests.TabsTest"/>
-      </group> <!-- akshu -->
     </groups>
-    <test started-at="2025-04-21T09:10:54 IST" name="Test" finished-at="2025-04-21T09:11:13 IST" duration-ms="19886">
-      <class name="tests.DoubleClickTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DoubleClickTest@72c8e7b]" started-at="2025-04-21T09:11:05 IST" name="setup" finished-at="2025-04-21T09:11:13 IST" duration-ms="7462" status="PASS">
+    <test started-at="2025-04-22T15:04:35 IST" name="Default test" finished-at="2025-04-22T15:04:43 IST" duration-ms="7616">
+      <class name="tests.SliderTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SliderTest@268f106e]" started-at="2025-04-22T15:04:35 IST" name="setup" finished-at="2025-04-22T15:04:42 IST" duration-ms="7240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="doubleClickMethod()[pri:5, instance:tests.DoubleClickTest@72c8e7b]" started-at="2025-04-21T09:11:13 IST" name="doubleClickMethod" finished-at="2025-04-21T09:11:13 IST" duration-ms="363" status="PASS">
+        <test-method signature="sliderTestMethod()[pri:16, instance:tests.SliderTest@268f106e]" started-at="2025-04-22T15:04:42 IST" name="sliderTestMethod" finished-at="2025-04-22T15:04:42 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doubleClickMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DoubleClickTest@72c8e7b]" started-at="2025-04-21T09:11:13 IST" name="teardown" finished-at="2025-04-21T09:11:13 IST" duration-ms="253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- tests.DoubleClickTest -->
-      <class name="tests.TabsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TabsTest@194fad1]" started-at="2025-04-21T09:10:54 IST" name="setup" finished-at="2025-04-21T09:11:02 IST" duration-ms="8530" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="tabTestMethod()[pri:12, instance:tests.TabsTest@194fad1]" started-at="2025-04-21T09:11:02 IST" name="tabTestMethod" finished-at="2025-04-21T09:11:05 IST" duration-ms="2942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tabTestMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TabsTest@194fad1]" started-at="2025-04-21T09:11:05 IST" name="teardown" finished-at="2025-04-21T09:11:05 IST" duration-ms="284" status="PASS">
+        </test-method> <!-- sliderTestMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SliderTest@268f106e]" started-at="2025-04-22T15:04:42 IST" name="teardown" finished-at="2025-04-22T15:04:43 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.TabsTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- tests.SliderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -10,8 +10,13 @@ public class Slider extends BaseTest{
 	
 	public WebDriver driver;
 	
-	@FindBy(xpath=" //div[@id='slider-range']")
-	
+	@FindBy(xpath=" //div[@id='slider-range']")	
 	public WebElement priceRange;
+	
+	@FindBy(xpath=" //*[@id=\"slider-range\"]/span[1]")
+	public WebElement minSliderRange;
+	
+	@FindBy(xpath=" //*[@id=\"slider-range\"]/span[2]")
+	public WebElement maxsliderRange;
 
 }

@@ -10,7 +10,10 @@ public class DropDrag extends BaseTest{
 	
 	WebDriver driver;
 	
-	@FindBy(xpath= " //h2[text()='Drag and Drop']")
+	@FindBy(css= "#draggable")
 	public WebElement dragDrop;
+	
+	@FindBy(css= "#droppable")
+	public WebElement dropable;
 
 }

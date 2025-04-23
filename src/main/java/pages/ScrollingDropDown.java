@@ -11,7 +11,7 @@ public class ScrollingDropDown extends BaseTest{
 	public WebDriver driver;
 	 
 	@FindBy(xpath=" //input[@id='comboBox']")
-	public WebElement scrollingDropdown;
+	public WebElement scrollingDropdownFiled;
 	
 
 }

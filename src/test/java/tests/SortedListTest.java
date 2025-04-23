@@ -2,7 +2,9 @@ package tests;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
@@ -14,6 +16,14 @@ public class SortedListTest extends BaseTest {
 	public void sortedListTestMethod() {
 
 		SortedList sortedListObj = PageFactory.initElements(driver, SortedList.class);
-		// akshu pls pura kr dena
+		
+		scrollToElementMethod(sortedListObj.aniamlsTableLoc);
+		for (WebElement ref : sortedListObj.animalsTable) {
+			System.out.println(ref.getText());
+			Select s = new Select(ref);
+			s.selectByValue("dog");
+		
+		
 	}
+}
 }

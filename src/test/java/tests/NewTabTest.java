@@ -1,6 +1,6 @@
 package tests;
 
-import org.testng.annotations.Test;
+
 import org.testng.annotations.Test;
 import java.util.Set;
 
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import base.BaseTest;
 import pages.NewTab;
-
+@Test(priority = 13)
 public class NewTabTest extends BaseTest {
 
 	public void newTab() throws InterruptedException {

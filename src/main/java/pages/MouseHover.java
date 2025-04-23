@@ -11,7 +11,7 @@ public class MouseHover extends BaseTest{
 	public WebDriver driver;
 	
 	@FindBy(xpath = " //button[text()='Point Me']")
-	public WebElement mouseHover;
+	public WebElement pointMeButton;
 	
 	
 	@FindBy(xpath = " //a[text()='Mobiles']")
