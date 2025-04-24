@@ -32,6 +32,10 @@ public class UploadFilesTest extends BaseTest {
 		Thread.sleep(4000);
 		uploadFilesObj.uploadMultipleFile.click();
 		
+		//Test senrio in automation for upload file 
+		//how to shorten the location path
+		//
+		
 //		JavascriptExecutor js = (JavascriptExecutor)driver;
 //		js.executeScript("arguments[0].click();",uploadFilesObj.chooseSingleFile); basically  use for click action 
 

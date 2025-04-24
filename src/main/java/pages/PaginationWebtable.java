@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +14,9 @@ public class PaginationWebtable extends BaseTest {
 
 	@FindBy(xpath = " //table[@id='productTable']")
 	public WebElement paginationTable;
+	
+	@FindBy(xpath = "//div/ul[@id='pagination']//a")
+	public List<WebElement> numberOfPages;
 	
 	
 

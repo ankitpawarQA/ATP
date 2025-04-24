@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-22T15:04:35 IST" name="Default suite" finished-at="2025-04-22T15:04:43 IST" duration-ms="7616">
+  <suite started-at="2025-04-24T12:06:45 IST" name="Default suite" finished-at="2025-04-24T12:06:52 IST" duration-ms="6675">
     <groups>
     </groups>
-    <test started-at="2025-04-22T15:04:35 IST" name="Default test" finished-at="2025-04-22T15:04:43 IST" duration-ms="7616">
-      <class name="tests.SliderTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SliderTest@268f106e]" started-at="2025-04-22T15:04:35 IST" name="setup" finished-at="2025-04-22T15:04:42 IST" duration-ms="7240" status="PASS">
+    <test started-at="2025-04-24T12:06:45 IST" name="Default test" finished-at="2025-04-24T12:06:52 IST" duration-ms="6675">
+      <class name="tests.PaginationWebTableTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PaginationWebTableTest@268f106e]" started-at="2025-04-24T12:06:46 IST" name="setup" finished-at="2025-04-24T12:06:51 IST" duration-ms="5805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sliderTestMethod()[pri:16, instance:tests.SliderTest@268f106e]" started-at="2025-04-22T15:04:42 IST" name="sliderTestMethod" finished-at="2025-04-22T15:04:42 IST" duration-ms="114" status="PASS">
+        <test-method signature="paginationWebtableMethod()[pri:0, instance:tests.PaginationWebTableTest@268f106e]" started-at="2025-04-24T12:06:51 IST" name="paginationWebtableMethod" finished-at="2025-04-24T12:06:52 IST" duration-ms="633" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sliderTestMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SliderTest@268f106e]" started-at="2025-04-22T15:04:42 IST" name="teardown" finished-at="2025-04-22T15:04:43 IST" duration-ms="223" status="PASS">
+        </test-method> <!-- paginationWebtableMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.PaginationWebTableTest@268f106e]" started-at="2025-04-24T12:06:52 IST" name="teardown" finished-at="2025-04-24T12:06:52 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.SliderTest -->
+      </class> <!-- tests.PaginationWebTableTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

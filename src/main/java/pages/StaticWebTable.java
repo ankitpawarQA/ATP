@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +14,12 @@ public class StaticWebTable extends BaseTest {
 	
 	@FindBy(xpath= " //div[@id='HTML1']")
 	public WebElement staticWebtale;
+	
+	@FindBy(xpath = "//div[@id='HTML1']//tbody//tr")
+	public List<WebElement> numberOfRow;
+	
+	@FindBy(xpath = "//div[@id='HTML1']//tbody//th")
+	public List<WebElement> numberOfColumn;
 	
 	@FindBy(xpath= " //div[@id='HTML12']")
 	public WebElement dynamicWebtale;

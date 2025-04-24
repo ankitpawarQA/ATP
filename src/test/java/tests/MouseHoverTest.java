@@ -1,7 +1,12 @@
 package tests;
 
+import java.time.Duration;
+
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -15,32 +20,26 @@ public class MouseHoverTest extends BaseTest {
 	public void validateMouseHover() throws InterruptedException {
 
 		MouseHover mouseHoverObj = PageFactory.initElements(driver, MouseHover.class);
-		
-		boolean pointMeButtonDsip=mouseHoverObj.pointMeButton.isDisplayed();
+		scrollToElementMethod(mouseHoverObj.pointMeButton);
+
+		boolean pointMeButtonDsip = mouseHoverObj.pointMeButton.isDisplayed();
 		softAssertMethod(pointMeButtonDsip);
-		
+
 		Actions a = new Actions(driver);
-		
-		a.moveToElement(mouseHoverObj.pointMeButton).perform();
-		mouseHoverObj.dropDownLaptops.click();
+		a.moveToElement(mouseHoverObj.pointMeButton).build().perform();
 		Thread.sleep(2000);
-		
-	
-		
-		
-		
+		for (WebElement ref : mouseHoverObj.allPointmeOptions) {
+			System.out.println(ref.getText());
+			if(ref.getText().contains("Mobiles")) {
+				mouseHoverObj.dropDownMoblies.click();
+			}
+		}
 
 		
-		
-		
-		
-		
-		
-		
-		
-				
-		
-		
+
+	
+
+		// find all the dropdown
 
 	}
 
