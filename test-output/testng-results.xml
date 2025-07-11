@@ -1,25 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-21T08:25:15 IST" name="Default suite" finished-at="2025-04-21T08:25:25 IST" duration-ms="9963">
+  <suite started-at="2025-07-10T21:44:56 IST" name="Suite" finished-at="2025-07-10T21:45:41 IST" duration-ms="44876">
     <groups>
     </groups>
-    <test started-at="2025-04-21T08:25:15 IST" name="Default test" finished-at="2025-04-21T08:25:25 IST" duration-ms="9963">
-      <class name="tests.TabsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TabsTest@1a451d4d]" started-at="2025-04-21T08:25:15 IST" name="setup" finished-at="2025-04-21T08:25:23 IST" duration-ms="7191" status="PASS">
+    <test started-at="2025-07-10T21:44:56 IST" name="Test" finished-at="2025-07-10T21:45:41 IST" duration-ms="44876">
+      <class name="tests.MouseHoverTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.MouseHoverTest@63475ace]" started-at="2025-07-10T21:45:30 IST" name="setup" finished-at="2025-07-10T21:45:35 IST" duration-ms="4994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tabTestMethod()[pri:12, instance:tests.TabsTest@1a451d4d]" started-at="2025-04-21T08:25:23 IST" name="tabTestMethod" finished-at="2025-04-21T08:25:25 IST" duration-ms="2400" status="PASS">
+        <test-method signature="validateMouseHover()[pri:6, instance:tests.MouseHoverTest@63475ace]" started-at="2025-07-10T21:45:35 IST" name="validateMouseHover" finished-at="2025-07-10T21:45:35 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tabTestMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TabsTest@1a451d4d]" started-at="2025-04-21T08:25:25 IST" name="teardown" finished-at="2025-04-21T08:25:25 IST" duration-ms="321" status="PASS">
+        </test-method> <!-- validateMouseHover -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.MouseHoverTest@63475ace]" started-at="2025-07-10T21:45:35 IST" name="teardown" finished-at="2025-07-10T21:45:35 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.TabsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- tests.MouseHoverTest -->
+      <class name="tests.DoubleClickTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DoubleClickTest@587e5365]" started-at="2025-07-10T21:45:06 IST" name="setup" finished-at="2025-07-10T21:45:13 IST" duration-ms="6934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="doubleClickMethod()[pri:5, instance:tests.DoubleClickTest@587e5365]" started-at="2025-07-10T21:45:13 IST" name="doubleClickMethod" finished-at="2025-07-10T21:45:14 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doubleClickMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DoubleClickTest@587e5365]" started-at="2025-07-10T21:45:14 IST" name="teardown" finished-at="2025-07-10T21:45:14 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.DoubleClickTest -->
+      <class name="tests.GenderRadioButtonTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GenderRadioButtonTest@22fcf7ab]" started-at="2025-07-10T21:45:14 IST" name="setup" finished-at="2025-07-10T21:45:19 IST" duration-ms="5664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateGenderRadioButtonTest()[pri:2, instance:tests.GenderRadioButtonTest@22fcf7ab]" started-at="2025-07-10T21:45:19 IST" name="validateGenderRadioButtonTest" finished-at="2025-07-10T21:45:20 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGenderRadioButtonTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.GenderRadioButtonTest@22fcf7ab]" started-at="2025-07-10T21:45:20 IST" name="teardown" finished-at="2025-07-10T21:45:20 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.GenderRadioButtonTest -->
+      <class name="tests.AlertsAndPopupsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AlertsAndPopupsTest@2de23121]" started-at="2025-07-10T21:45:20 IST" name="setup" finished-at="2025-07-10T21:45:25 IST" duration-ms="5110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="alertandPopUp()[pri:3, instance:tests.AlertsAndPopupsTest@2de23121]" started-at="2025-07-10T21:45:25 IST" name="alertandPopUp" finished-at="2025-07-10T21:45:30 IST" duration-ms="4630" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c487fb752863a76498f6f2f94d83aff, acceptAlert {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Ankit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51983/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c487fb752863a76498f6f2f94d83aff]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c487fb752863a76498f6f2f94d83aff, acceptAlert {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Ankit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51983/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c487fb752863a76498f6f2f94d83aff
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert.accept(RemoteWebDriver.java:1207)
+at tests.AlertsAndPopupsTest.alertandPopUp(AlertsAndPopupsTest.java:66)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertandPopUp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AlertsAndPopupsTest@2de23121]" started-at="2025-07-10T21:45:30 IST" name="teardown" finished-at="2025-07-10T21:45:30 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AlertsAndPopupsTest -->
+      <class name="tests.NewTabTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewTabTest@198b6731]" started-at="2025-07-10T21:44:56 IST" name="setup" finished-at="2025-07-10T21:45:05 IST" duration-ms="9028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="popWinMethod()[pri:4, instance:tests.NewTabTest@198b6731]" started-at="2025-07-10T21:45:05 IST" name="popWinMethod" finished-at="2025-07-10T21:45:06 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popWinMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NewTabTest@198b6731]" started-at="2025-07-10T21:45:06 IST" name="teardown" finished-at="2025-07-10T21:45:06 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.NewTabTest -->
+      <class name="tests.GUIElementsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GUIElementsTest@4988d8b8]" started-at="2025-07-10T21:45:35 IST" name="setup" finished-at="2025-07-10T21:45:40 IST" duration-ms="5019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateGUIElements()[pri:1, instance:tests.GUIElementsTest@4988d8b8]" started-at="2025-07-10T21:45:40 IST" name="validateGUIElements" finished-at="2025-07-10T21:45:41 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGUIElements -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.GUIElementsTest@4988d8b8]" started-at="2025-07-10T21:45:41 IST" name="teardown" finished-at="2025-07-10T21:45:41 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.GUIElementsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

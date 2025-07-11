@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.GenderRadioButtonTest">
+      <class name="tests.AlertsAndPopupsTest">
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="validateGenderRadioButtonTest"/>
+          <include name="alertandPopUp"/>
         </methods>
-      </class> <!-- tests.GenderRadioButtonTest -->
+      </class> <!-- tests.AlertsAndPopupsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
