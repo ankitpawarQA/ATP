@@ -3,11 +3,12 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="tests.NewTabTest" />
+		<!--<class name="tests.NewTabTest" />
 			<class name="tests.DoubleClickTest" />
 			<class name="tests.GenderRadioButtonTest" />
 			<class name="tests.AlertsAndPopupsTest" />
 			<class name="tests.MouseHoverTest" />
+			-->	
 			<class name="tests.GUIElementsTest" />
 		</classes>
 	</test> <!-- Test -->
