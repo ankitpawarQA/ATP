@@ -47,6 +47,7 @@ public class GUIElementsTest extends BaseTest {
 		GUIElementsObj.phoneEnterField.sendKeys("780725645");
 
 		GUIElementsObj.addressEnterField.sendKeys("Pune");
+		System.out.println("new code added");
 
 	}
 
