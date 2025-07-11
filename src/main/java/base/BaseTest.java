@@ -22,11 +22,11 @@ public class BaseTest {
 
 	@BeforeMethod
 	public void setup() {
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless=new"); // or "--headless"
-		options.addArguments("--no-sandbox");
-		options.addArguments("--disable-dev-shm-usage");
-		WebDriver driver = new ChromeDriver(options);
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--headless=new"); // or "--headless"
+//		options.addArguments("--no-sandbox");
+//		options.addArguments("--disable-dev-shm-usage");
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://testautomationpractice.blogspot.com/");
 	}
