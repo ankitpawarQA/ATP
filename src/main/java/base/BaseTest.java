@@ -27,7 +27,6 @@ public class BaseTest {
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
 		WebDriver driver = new ChromeDriver(options);
-
 		driver.manage().window().maximize();
 		driver.get("https://testautomationpractice.blogspot.com/");
 	}
