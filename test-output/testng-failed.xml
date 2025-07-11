@@ -3,13 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.GenderRadioButtonTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="validateGenderRadioButtonTest"/>
-        </methods>
-      </class> <!-- tests.GenderRadioButtonTest -->
       <class name="tests.GUIElementsTest">
         <methods>
           <include name="setup"/>
@@ -17,27 +10,6 @@
           <include name="validateGUIElements"/>
         </methods>
       </class> <!-- tests.GUIElementsTest -->
-      <class name="tests.DoubleClickTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="doubleClickMethod"/>
-        </methods>
-      </class> <!-- tests.DoubleClickTest -->
-      <class name="tests.NewTabTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="popWinMethod"/>
-        </methods>
-      </class> <!-- tests.NewTabTest -->
-      <class name="tests.AlertsAndPopupsTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="alertandPopUp"/>
-        </methods>
-      </class> <!-- tests.AlertsAndPopupsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

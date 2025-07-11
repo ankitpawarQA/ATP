@@ -23,7 +23,7 @@ public class BaseTest {
 	@BeforeMethod
 	public void setup() {
 
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://testautomationpractice.blogspot.com/");
 	}
