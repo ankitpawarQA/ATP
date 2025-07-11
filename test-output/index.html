@@ -218,26 +218,6 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">tests.NewTabTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="popWinMethod">
-                  </a> <!-- popWinMethod -->
-                  <span class="method-name">popWinMethod</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getWindowHandle()&quot; because &quot;this.driver&quot; is null
-	at tests.NewTabTest.popWinMethod(NewTabTest.java:53)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">tests.AlertsAndPopupsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -249,6 +229,26 @@
                   <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
 	at base.BaseTest.implicitWaitMethod(BaseTest.java:47)
 	at tests.AlertsAndPopupsTest.alertandPopUp(AlertsAndPopupsTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.NewTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="popWinMethod">
+                  </a> <!-- popWinMethod -->
+                  <span class="method-name">popWinMethod</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getWindowHandle()&quot; because &quot;this.driver&quot; is null
+	at tests.NewTabTest.popWinMethod(NewTabTest.java:53)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
@@ -332,32 +332,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'popWinMethod')
 data.setCell(0, 2, 'tests.NewTabTest')
-data.setCell(0, 3, 30);
+data.setCell(0, 3, 33);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'validateGUIElements')
 data.setCell(1, 2, 'tests.GUIElementsTest')
-data.setCell(1, 3, 6);
+data.setCell(1, 3, 11);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateGenderRadioButtonTest')
-data.setCell(2, 2, 'tests.GenderRadioButtonTest')
-data.setCell(2, 3, 5);
+data.setCell(2, 1, 'doubleClickMethod')
+data.setCell(2, 2, 'tests.DoubleClickTest')
+data.setCell(2, 3, 11);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'doubleClickMethod')
-data.setCell(3, 2, 'tests.DoubleClickTest')
-data.setCell(3, 3, 5);
+data.setCell(3, 1, 'validateGenderRadioButtonTest')
+data.setCell(3, 2, 'tests.GenderRadioButtonTest')
+data.setCell(3, 3, 11);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateMouseHover')
-data.setCell(4, 2, 'tests.MouseHoverTest')
+data.setCell(4, 1, 'alertandPopUp')
+data.setCell(4, 2, 'tests.AlertsAndPopupsTest')
 data.setCell(4, 3, 4);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'alertandPopUp')
-data.setCell(5, 2, 'tests.AlertsAndPopupsTest')
-data.setCell(5, 3, 2);
+data.setCell(5, 1, 'validateMouseHover')
+data.setCell(5, 2, 'tests.MouseHoverTest')
+data.setCell(5, 3, 3);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 ms</span>
+              <span class="suite-total-time">Total running time: 73 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -392,106 +392,106 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">popWinMethod</span>
-                <span class="method-start">6198 ms</span>
+                <span class="method-start">6328 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">6231 ms</span>
+                <span class="method-start">6366 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.DoubleClickTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">6240 ms</span>
+                <span class="method-start">6376 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">doubleClickMethod</span>
-                <span class="method-start">10648 ms</span>
+                <span class="method-start">12920 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">10655 ms</span>
+                <span class="method-start">12935 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.GenderRadioButtonTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">10664 ms</span>
+                <span class="method-start">12947 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validateGenderRadioButtonTest</span>
-                <span class="method-start">15577 ms</span>
+                <span class="method-start">18937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">15585 ms</span>
+                <span class="method-start">18952 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.AlertsAndPopupsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">15592 ms</span>
+                <span class="method-start">18972 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">alertandPopUp</span>
-                <span class="method-start">21122 ms</span>
+                <span class="method-start">25086 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">21127 ms</span>
+                <span class="method-start">25096 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.MouseHoverTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">21132 ms</span>
+                <span class="method-start">25115 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateMouseHover</span>
-                <span class="method-start">26574 ms</span>
+                <span class="method-start">32239 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">26580 ms</span>
+                <span class="method-start">32247 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.GUIElementsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">26589 ms</span>
+                <span class="method-start">32260 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validateGUIElements</span>
-                <span class="method-start">31734 ms</span>
+                <span class="method-start">39386 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">31741 ms</span>
+                <span class="method-start">39399 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
