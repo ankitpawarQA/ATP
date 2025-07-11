@@ -67,6 +67,7 @@ public class AlertsAndPopupsTest extends BaseTest {
 		alertPopUpObj.promptAlertsBtn.click();
 		promptAlert.sendKeys("akshuankit");
 		promptAlert.dismiss();
+		System.out.println("all ok Ankit");
 
 	}
 
